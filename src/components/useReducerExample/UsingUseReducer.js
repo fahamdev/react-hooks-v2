@@ -32,6 +32,9 @@ const UsingUseReducer = () => {
       <div className='Bottom-medium-margin'>
         <i style={{ color: `rgb(${r}, ${g}, ${b})` }} className='gem icon huge center'></i>
       </div>
+      <div className='Bottom-medium-margin'>
+        <h4 className="header User-name">{`rgb(${r}, ${g}, ${b})`}</h4>
+      </div>
       <div>
         <ButtonGroup colour='R' increaseValue={() => dispatch({ type: 'INCREMENT_R' })} decreaseValue={() => dispatch({ type: 'DECREMENT_R' })} />
         <ButtonGroup colour='G' increaseValue={() => dispatch({ type: 'INCREMENT_G' })} decreaseValue={() => dispatch({ type: 'DECREMENT_G' })} />
