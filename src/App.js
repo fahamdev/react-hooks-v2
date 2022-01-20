@@ -1,8 +1,8 @@
 import './App.css';
 // import UseStateExample from './components/useStateExample'
 // import UseEffectExample from './components/useEffectExample'
-import UseReducerExample from './components/useReducerExample'
-// import UseRefExample from './components/useRefExample'
+// import UseReducerExample from './components/useReducerExample'
+import UseRefExample from './components/useRefExample'
 // import UseMemoExample from './components/useMemoExample'
 
 function App() {
@@ -19,10 +19,10 @@ function App() {
         {/* <UseEffectExample /> */}
 
         {/* useReducer */}
-        <UseReducerExample />
+        {/* <UseReducerExample /> */}
 
         {/* useRef */}
-        {/* <UseRefExample /> */}
+        <UseRefExample />
 
         {/* useMemo */}
         {/* <UseMemoExample /> */}

@@ -11,9 +11,9 @@ const Index = () => {
         <div className="eight wide column">
           <div className='Full-width'>
             <div className='Full-width'>
-              <Input ref={firstNameInputEl} label='First Name' placeHolder='First name' />
-              <Input ref={middleNameInputEl} label='Middle Name' placeHolder='Middle name' />
-              <Input ref={lastNameInputEl} label='Last Name' placeHolder='Last name' />
+              <Input ref={firstNameInputEl} label='First Name' placeholder='First Name' />
+              <Input ref={middleNameInputEl} label='Middle Name' placeholder='Middle Name' />
+              <Input ref={lastNameInputEl} label='Last Name' placeholder='Last Name' />
             </div>
             <div className="blue ui buttons Full-width">
               <button className="ui button" onClick={() => firstNameInputEl.current.focus()}>First Name</button>
