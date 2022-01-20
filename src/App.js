@@ -1,8 +1,8 @@
 import './App.css';
 // import UseStateExample from './components/useStateExample'
-// import UseEffectExample from './components/useEffectExample'
+import UseEffectExample from './components/useEffectExample'
 // import UseReducerExample from './components/useReducerExample'
-import UseRefExample from './components/useRefExample'
+// import UseRefExample from './components/useRefExample'
 // import UseMemoExample from './components/useMemoExample'
 
 function App() {
@@ -12,19 +12,14 @@ function App() {
         <h3>React Hooks</h3>
       </header>
       <div className="ui container Top-margin">
-        {/* useState */}
         {/* <UseStateExample /> */}
 
-        {/* useEffect */}
-        {/* <UseEffectExample /> */}
+        <UseEffectExample />
 
-        {/* useReducer */}
         {/* <UseReducerExample /> */}
 
-        {/* useRef */}
-        <UseRefExample />
+        {/* <UseRefExample /> */}
 
-        {/* useMemo */}
         {/* <UseMemoExample /> */}
       </div>
     </div>

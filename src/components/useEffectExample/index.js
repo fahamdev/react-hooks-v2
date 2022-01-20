@@ -1,10 +1,11 @@
 import React from 'react'
 import Clock from './clock'
 // import UsingClass from './usingClass'
-import UsingHooks from './usingHooks'
+// import UsingHooks from './usingHooks'
 // import SearchUsingHooks from './searchUsingHooks'
 // import SearchOnChangeUsingHooks from './searchOnChangeUsingHooks'
 // import DebouncedSearchUsingHooks from './debouncedSearchUsingHooks'
+import DebouncedSearchUsingCustomHooks from './debouncedSearchUsingCustomHooks'
 
 
 const Index = () => {
@@ -17,9 +18,9 @@ const Index = () => {
         {/* <div className="five wide column">
           <UsingClass />
         </div> */}
-        <div className="five wide column">
+        {/* <div className="five wide column">
           <UsingHooks />
-        </div>
+        </div> */}
         {/* <div className="five wide column">
           <SearchUsingHooks />
         </div> */}
@@ -29,6 +30,9 @@ const Index = () => {
          {/* <div className="five wide column">
           <DebouncedSearchUsingHooks />
         </div> */}
+        <div className="five wide column">
+          <DebouncedSearchUsingCustomHooks />
+        </div>
       </div>
     </div>
   )
