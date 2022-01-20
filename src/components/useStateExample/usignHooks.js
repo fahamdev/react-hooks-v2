@@ -5,6 +5,7 @@ const UsignHooks = () => {
   return (
     <div>
       <h2
+        className='no-select'
         style={{ color: showDefaultTextColour ? 'black' : 'red' }}
         onClick={() => setDefaultTextColour(!showDefaultTextColour)}>
         Click on text to change colour [useState Hook]

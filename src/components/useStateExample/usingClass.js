@@ -15,6 +15,7 @@ export class usingClass extends Component {
     return (
       <div>
         <h2
+          className='no-select'
           style={{ color: this.state.showDefaultTextColour ? 'black' : 'red' }}
           onClick={this.changeTextColour}>
           Click on text to change colour [Class Component]

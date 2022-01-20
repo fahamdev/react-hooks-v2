@@ -44,3 +44,10 @@
 .Fixed-Width-label {
   width: 120px;
 }
+
+.no-select {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}

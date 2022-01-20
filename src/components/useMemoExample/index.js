@@ -17,7 +17,7 @@ const Index = () => {
   return (
     <div className="ui grid centered">
       <div className="six wide column center aligned">
-        <h1 className="ui header centered"
+        <h1 className="ui header centered no-select"
           style={{ color: showDefaultTextColour ? 'black' : 'red' }}
           onClick={() => setDefaultTextColour(!showDefaultTextColour)}>
           Click to change colour
