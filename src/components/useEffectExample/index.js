@@ -3,7 +3,8 @@ import Clock from './clock'
 // import UsingClass from './usingClass'
 // import UsingHooks from './usingHooks'
 // import SearchUsingHooks from './searchUsingHooks'
-import SearchOnChangeUsingHooks from './searchOnChangeUsingHooks'
+// import SearchOnChangeUsingHooks from './searchOnChangeUsingHooks'
+import DebouncedSearchUsingHooks from './debouncedSearchUsingHooks'
 
 
 const Index = () => {
@@ -22,8 +23,11 @@ const Index = () => {
         {/* <div className="five wide column">
           <SearchUsingHooks />
         </div> */}
-        <div className="five wide column">
+        {/* <div className="five wide column">
           <SearchOnChangeUsingHooks />
+        </div> */}
+         <div className="five wide column">
+          <DebouncedSearchUsingHooks />
         </div>
       </div>
     </div>
