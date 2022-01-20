@@ -10,9 +10,9 @@ const Index = () => {
         <Clock />
       </div>
       <div className="ui grid centered">
-        <div className="five wide column">
+        {/* <div className="five wide column">
           <UsingClass />
-        </div>
+        </div> */}
         <div className="five wide column">
           <UsingHooks />
         </div>
