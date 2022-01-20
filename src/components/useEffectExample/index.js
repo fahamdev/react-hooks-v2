@@ -2,6 +2,7 @@ import React from 'react'
 import UsingClass from './usingClass'
 import UsingHooks from './usingHooks'
 import Clock from './clock'
+import SearchUsingHooks from './searchUsingHooks'
 
 const Index = () => {
   return (
@@ -13,8 +14,11 @@ const Index = () => {
         {/* <div className="five wide column">
           <UsingClass />
         </div> */}
-        <div className="five wide column">
+        {/* <div className="five wide column">
           <UsingHooks />
+        </div> */}
+        <div className="five wide column">
+          <SearchUsingHooks />
         </div>
       </div>
     </div>
